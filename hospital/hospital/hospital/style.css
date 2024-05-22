@@ -1,0 +1,98 @@
+
+/* :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+/* :: 2.0 Import All CSS */
+@import url(css/bootstrap.min.css);
+@import url(css/animate.css);
+@import url(css/owl.carousel.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/themify-icons.css);
+@import url(css/medilife-icons.css);
+@import url(css/nice-select.css);
+/* :: 3.0 Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+
+
+
+.btn {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+  .btn:hover, .btn:focus {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); }
+
+.medilife-btn {
+  display: inline-block;
+  color: #ffffff;
+  background-color: black;
+  height: 45px;
+  padding: 0 55px 0 30px;
+  line-height: 42px;
+  font-size: 14px;
+  min-width: 140px;
+  border-radius: 0;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms; }
+  .medilife-btn span {
+    width: 40px;
+    height: 45px;
+    background-color: #8bca84;
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms; }
+ 
+ 
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .medilife-appoint-btn {
+      margin-top: 30px; } }
+  @media only screen and (max-width: 767px) {
+    .medilife-appoint-btn {
+      margin-top: 10px; } }
+
+
+/* :: 20.0 Contact Area CSS */
+.single-contact {
+  margin-bottom: 20px; }
+  .single-contact .contact-icon i {
+    color: #006cff;
+    font-size: 20px; }
+  .single-contact .contact-meta p {
+    margin-bottom: 0; }
+
+.contact-social-area {
+  margin-top: 30px; }
+  .contact-social-area a {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 15px;
+    color: #b4b4b4; }
+    .contact-social-area a:focus, .contact-social-area a:hover {
+      color: #006cff; }
+
+
+
+
+
+
+
+
